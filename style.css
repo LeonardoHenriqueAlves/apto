@@ -70,25 +70,23 @@
     align-items: center;
 @import url(style.css);
 
-/* Resto do seu CSS ... */
 
-/* Ajusta a seção home para ocupar 100% da altura da janela de visualização */
 .home {
     min-height: 100vh;
     padding: 0;
     background-color: var(--bg-color);
-    /* Adiciona a imagem de fundo */
+   
     background-image: url('aptfoto.jpg');
-    /* Ajusta a posição e tamanho da imagem */
-    background-size: 400px 600px; /* Largura 400px e altura 600px da imagem */
+   
+    background-size: 400px 600px; 
     background-repeat: no-repeat;
-    background-position: center; /* Posição no centro */
+    background-position: center; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Resto do seu CSS ... */
+
 
 }
 
@@ -323,13 +321,13 @@ section {
 
 .final {
     margin-top: 20px;
-}/* Adiciona a imagem de fundo à seção home */
+}
 .home {
     background-image: url('aptofoto.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px; /* Defina a altura da seção para o tamanho da imagem */
+    height: 600px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,10 +338,10 @@ section {
     background-color: var(--bg-color);
     /* Adicionando a imagem de fundo */
     background-image: url('background-image.jpg');
-    /* Ajuste a posição e tamanho da imagem */
-    background-size: auto 50%; /* Largura automática e altura 50% da seção "home" */
+    
+    background-size: auto 50%; 
     background-repeat: no-repeat;
-    background-position: right bottom; /* Posição no canto direito inferior */
+    background-position: right bottom; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,4 +351,3 @@ section {
     text-align: center;
 }
 
-/* Resto do seu CSS ... */
